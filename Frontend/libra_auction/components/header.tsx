@@ -12,8 +12,8 @@ export default function Header() {
     { value: "Contact", href: "/contact" }
   ];
   const userActionItems: UserActionType[] = [
-    { value: "Login", href: "/login" },
-    { value: "Register", href: "/register" },
+    { value: "Sign in", href: "/sign-in" },
+    { value: "Sign up", href: "/sign-up" },
   ];
   return (
     <div className="px-8 py-4 flex bg-white shadow-md">
